@@ -20,7 +20,7 @@ $STD apt-get install -y mc
 $STD apt-get install -y git
 $STD apt-get install -y ca-certificates
 $STD apt-get install -y gnupg
-$STD apt-get install -y make gcc
+$STD apt-get install -y make gcc g++
 msg_ok "Installed Dependencies"
 
 msg_info "Setting up Node.js Repository"
